@@ -1,0 +1,344 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.logo img {
+  height: 40px;
+  object-fit: contain;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 50px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.signup-btn {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 50px;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.highlight {
+  background: #E6C744;
+  padding: 5px 10px;
+}
+
+.shop-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: black;
+  color: white;
+  border: none;
+}
+
+.hero-image img {
+  width: 400px;
+}
+
+.brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #E6C744;
+  padding: 20px 50px;
+}
+
+.brands img {
+  height: 40px;        
+  object-fit: contain; 
+  
+}
+
+
+.new-arrivals {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-card {
+  width: 32%;
+}
+
+.product-card img {
+  height: 420px;     /* 🔥 main fix */
+  object-fit: cover;
+  border-radius: 20px;
+}
+.product-card h3 {
+  margin-top: 10px;
+}
+
+.product-card p {
+  color: gray;
+}
+
+.products {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap; 
+}
+
+.product-card {
+  width: 250px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  margin-top: 10px;
+}
+
+.product-card p {
+  color: gray;
+}
+
+.sale {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 40px;
+
+  background: linear-gradient(90deg, #f7e36a, #e6c744);
+}
+
+/* image */
+.sale-image img {
+  width: 350px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+}
+
+/* text */
+.sale-text {
+  max-width: 450px;
+}
+
+.sale-text h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.sale-image {
+  margin-left: -20px;
+}
+
+.highlight {
+  background: white;
+  padding: 5px 15px;
+  display: inline-block;
+}
+
+.sale-text p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.sale-text small {
+  display: block;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* button */
+.shop-btn {
+  margin-top: 10px;
+  background: black;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 10px;
+}
+
+.favourite {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.fav-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.fav-card {
+  width: 48%;
+}
+
+.fav-card img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.app-text {
+  max-width: 450px;  /* 🔥 important */
+}
+
+.app-text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.app-text p {
+  margin: 20px 0;
+  color: #666;
+}
+
+.store-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.store-buttons img {
+  height: 55px;
+}
+
+/* 🔥 phone image positioning */
+.app-image img {
+  width: 300px;
+}
+
+.newsletter {
+  text-align: center;
+  padding: 50px;
+  background: #E6C744;
+}
+
+.newsletter input {
+  padding: 10px;
+  width: 250px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+}
+
+
+.footer {
+  background: black;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 50px;
+}
+
+.footer-left {
+  max-width: 300px;
+}
+
+.footer-left p {
+  margin: 15px 0;
+  color: #ccc;
+}
+
+.footer-links h4 {
+  margin-bottom: 15px;
+}
+
+.footer-links p {
+  color: #aaa;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+/* 🔥 Social icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons i {
+  width:
+
+@media (max-width: 768px) {
+
+  .hero,
+  .sale,
+  .app {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .products,
+  .fav-container {
+    flex-direction: column;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
